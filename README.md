@@ -5,7 +5,7 @@ This was a Continous Integration Pipeline I created using Jenkins, Maven, Github
 - If the build passed the quality gates, Nexus receieved the artifacts and stored them in a software repository. 
 - Slack was integrated with Jenkins to receieve notifications when a build succeeded or failed.
 
-For the infrastructure: I ran Jenkins, SonarQube, and Nexus on three different AWS EC2 instances. I configured the security groups accordingly so the servers could communicate with each other during the build process. 
+For the infrastructure: I ran Jenkins, SonarQube, and Nexus on three different AWS Linux EC2 instances. I configured the security groups accordingly so the servers could communicate with each other during the build process. 
 
 Regarding software installation: I wrote Bash scripts and implemented them in the EC2 user data to automate the installation of Jenkins, Maven, SonarQube, and Nexus. 
 
