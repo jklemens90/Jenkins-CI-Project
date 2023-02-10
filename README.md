@@ -1,4 +1,4 @@
-This was a Continous Integration Pipeline I created using Jenkins, Github, SonarQube, Nexus, and Slack.  
+This was a Continous Integration Pipeline I created using Jenkins, Maven, Github, SonarQube, Nexus, and Slack.  
 - I utilized Jenkins and Maven to run the build process. 
 - Github was used to store source code which was then fetched from Jenkins when a build was ran. 
 - SonarQube was used for code analysis, including quality gates I configured. 
