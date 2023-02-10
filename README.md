@@ -1,7 +1,7 @@
 This was a Continous Integration Pipeline I created using Jenkins, Maven, Github, Checkstyle, SonarQube, Nexus, and Slack.  
 - Source code was stored in Github, which was then fetched from Jenkins when a build was initiated.
 - Maven was used to run the build process. 
-- Checkstyle and SonarQube were used for code analysis, including Sonar quality gates I configured. 
+- Checkstyle and SonarQube were used for code analysis, including custom Sonar quality gates I configured. 
 - If the build passed the quality gates, Nexus receieved the artifacts and stored them in a software repository. 
 - Slack was integrated with Jenkins to receieve notifications when a build succeeded or failed.
 
