@@ -13,6 +13,8 @@ I wrote pipeline as a code (PAAC) in DSL for the Jenkins pipeline.  In this code
 
 During the process, I troubleshot Jenkins builds by referencing the console output/logs.  This allowed me to gain perspective on how to fix any issues with shell scripts, IP addresses, and incorrect versions of dependencies. 
 
+Below are the outputs for the build process. 
+
 ![Stage view](https://user-images.githubusercontent.com/95970840/217977719-91bb576b-c1d5-4d78-a5a7-eb702794b681.png)
 ![Sonar analysis](https://user-images.githubusercontent.com/95970840/217977739-0db24f44-73ec-452d-9644-c7229f425828.png)
 ![Nexus Repository](https://user-images.githubusercontent.com/95970840/217977761-25c4f8e7-686d-4371-b4b8-3ff437f395ae.png)
